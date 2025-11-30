@@ -1,0 +1,15 @@
+{
+    "name": "coin-collector-server",
+    "version": "1.0.0",
+    "description": "Authoritative game server for Coin Collector (WebSocket)",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "You",
+    "license": "MIT",
+    "dependencies": {
+        "uuid": "^9.0.0",
+        "ws": "^8.18.3"
+    }
+}

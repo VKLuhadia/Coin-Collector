@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Coin Collector — Client</title>
+  <style>
+    html,body { height:100%; margin:0; background:#111; color:#ddd; font-family: Arial, sans-serif; }
+    #container { display:flex; height:100%; gap:12px; padding:12px; box-sizing:border-box; }
+    .panel { background:#0f1720; border-radius:8px; padding:10px; box-sizing:border-box; flex:1; display:flex; flex-direction:column; }
+    canvas { background:#0b1220; border-radius:6px; display:block; margin:0 auto; }
+    #ui { margin-top:8px; display:flex; gap:12px; align-items:center; }
+    label { font-size:13px; color:#9aa7b2; }
+    input[type=text] { padding:6px 8px; border-radius:6px; border:1px solid #263238; background:#07121a; color:#fff; }
+    button { padding:6px 10px; border-radius:6px; background:#1f7a8c; color:white; border:none; cursor:pointer; }
+    #overlay { margin-top:8px; font-family: monospace; font-size:12px; color:#9ae6b4; }
+    .hint { color:#9aa7b2; font-size:12px; margin-top:6px; }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="panel">
+      <h3 style="margin:6px 0 8px 0">Coin Collector — Client</h3>
+      <canvas id="game" width="800" height="600"></canvas>
+
+      <div id="ui">
+        <label>Player name</label>
+        <input id="name" type="text" value="Player" />
+        <button id="joinBtn">Join</button>
+        <button id="debugBtn">Toggle Debug</button>
+      </div>
+
+      <div id="overlay">
+        <div id="status">Status: disconnected</div>
+        <div id="latency">RTT: - ms</div>
+        <div id="scores">Scores: -</div>
+        <div class="hint">Controls: WASD or arrow keys. Open two tabs to simulate 2 players.</div>
+      </div>
+    </div>
+
+    <div class="panel" style="width:360px;">
+      <h4 style="margin:6px 0">Debug / Info</h4>
+      <pre id="debug" style="white-space:pre-wrap; font-size:13px; color:#cbd5e1;"></pre>
+    </div>
+  </div>
+
+  <script src="./client.js"></script>
+</body>
+</html>
