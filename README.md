@@ -1,6 +1,4 @@
----
-
-# ✅ **README**
+# **README**
 
 ````markdown
 ## 🚀 Running the Project
@@ -64,3 +62,4 @@ http-server -c-1
 ```bash
 cd server
 ```
+
