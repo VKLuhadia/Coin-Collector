@@ -1,11 +1,9 @@
 # **README**
 
-````markdown
-## 🚀 Running the Project
+## Running the Project
 
 Follow the steps below to start the backend server and two client instances (Player 1 and Player 2).
 
----
 
 ### 1. Start the Backend Server
 
@@ -62,4 +60,5 @@ http-server -c-1
 ```bash
 cd server
 ```
+
 
