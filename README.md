@@ -1,16 +1,6 @@
-Bhai issue **sirf ek cheez ka hai**:
-
-👉 Tumhare code blocks ke aage ya beech **extra spaces / indentation** aa gaye hain, isliye GitHub usko **text** ki tarah render kar raha hai, code-block ki tarah nahi.
-
-Main tumhe **perfectly clean**, error-free, GitHub-friendly `README.md` code de raha hoon — **NO extra spaces, NO invisible indentation, NO formatting mistakes**.
-
-⚠️ **Isko EXACT as-is copy/paste karna. Notepad / VS Code me open karke paste karo — GitHub mistake nahi karega.**
-
 ---
 
-# ✅ **PERFECT README MARKDOWN — CLEAN VERSION**
-
-### (Copy–Paste directly)
+# ✅ **README**
 
 ````markdown
 ## 🚀 Running the Project
@@ -86,13 +76,3 @@ Tumhare screenshot me kuch aise tha:
 cd server
 ```
 
-```
-
-Yeh galat hai.
-
----
-
-# 👍 This version will render EXACTLY like you want.
-
-Agar chaho toh main tumhare full README ko polish + optimize karke GitHub-ready bana dun (with sections, badges, screenshots, features etc.).
-```
