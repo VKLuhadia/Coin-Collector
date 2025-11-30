@@ -61,18 +61,6 @@ http-server -c-1
 
 11. Open the displayed URL in a **different browser** or a **separate window** to simulate Player 2.
 
-```
-
----
-
-# 🧨 IMPORTANT FIX  
-GitHub Markdown me code block ke **upar ya niche koi extra space nahi hona chahiye**.
-
-Tumhare screenshot me kuch aise tha:
-
-```
-
 ```bash
 cd server
 ```
-
